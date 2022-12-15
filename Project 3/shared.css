@@ -9,6 +9,13 @@ ul {
     padding: 0;
 }
 
+header {
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Dar estilo al anchor tag dentro de page-logo*/
 #page-logo a {
     padding: 10px;
@@ -19,4 +26,14 @@ ul {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header li {
+    margin-left: 20px;
+}
+
 
